@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Cyberpunk Filipino-Made Accessories</title>
+<!-- Google Fonts for a futuristic vibe -->
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet" />
+<!-- External CSS -->
+<link rel="stylesheet" href="Style_1.css" />
+<style>
+</style>
+</head>
+<body>
+
+<!-- Sidebar omitted for brevity, keep your existing sidebar code -->
+
+<!-- Main Content Area -->
+<main>
+
+<!-- Sidebar Navigation & Info -->
+<div id="sidebar">
+  <h2>Shop & Info</h2>
+  <section>
+    <h3>Search</h3>
+    <input type="text" id="search-input" placeholder="Search reviews/products" />
+    <button id="search-btn">Search</button>
+  </section>
+  <section>
+    <div class="right">
+      <div class="signup-card">
+        <h1>What do you think</h1>
+        <p>Click the button below to start the sign-up process.</p>
+        <button id="startBtn" type="button">Sign Up Now</button>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h3>Your Cart</h3>
+    <div id="cart"></div>
+  </section>
+</div>
+<!-- Main Content Area -->
+<main>
+  <!-- Header with Logo & Navigation -->
+  <header>
+    <button id="toggle-sidebar" style="position:relative; right:20px; z-index:10001; background:var(--neon-pink); border:none; padding:10px 15px; border-radius:8px; cursor:pointer; font-weight:bold;">☰ My Account</button>
+    <div class="header-left">
+      <div class="logo">Trinkkl.ph</div>
+    </div>
+    <div class="header-center">
+      <nav class="nav">
+        <div class="subheader">
+          <a href="about-us">About Us</a>
+          <a href="products.html">Products</a>
+          <a href="ECOMMERCE.html">Homepage</a>
+          <a href="featured-products">Featured</a>
+          <a href="blogs">Blogs</a>
+          <a href="faq.html">FAQ</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+<!-- Main Content Area -->
+  <!-- Header omitted for brevity, keep your existing header code -->
+
+  <!-- Hero Section -->
+  <div class="hero-section hero-section-a" id="homepage">
+    <div class="hero-content">
+      <h1 class="glitch">ACCESSORIES MADE FOR FUTURE CENTURIES</h1>
+      <p>Dress for the galaxies beyond your reach.</p>
+    </div>
+  </div>
+
+  <!-- FAQ Section with flip cards -->
+  <section id="faq" style="margin-top:50px; padding:40px; max-width:1200px; margin:0 auto; font-family:'Orbitron', sans-serif;">
+    <h1 style="text-align:center; color:var(--neon-yellow); margin-bottom:20px;">Frequently Asked Questions</h1>
+    <div style="text-align:center; margin-bottom:20px;">
+      <button id="flipAllBtn">Flip All</button>
+    </div>
+    <div class="faq-flip-container" id="faqCards">
+      <!-- 9 flip cards -->
+      <!-- Card 1 -->
+      <div class="faq-flip-card">
+        <div class="faq-flip-inner">
+          <div class="faq-flip-front">
+            <h3 style="margin-bottom:10px;">What materials are used?</h3>
+            <p style="margin-top:10px;">Hover or click to see answer.</p>
+          </div>
+          <div class="faq-flip-back">
+            <h3 style="margin-bottom:10px;">Materials</h3>
+            <img src="https://via.placeholder.com/100" alt="Materials" style="width:80px; margin-bottom:10px;">
+            <p>Our accessories use high-quality, sustainable materials.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Card 2 -->
+      <div class="faq-flip-card">
+        <div class="faq-flip-inner">
+          <div class="faq-flip-front">
+            <h3 style="margin-bottom:10px;">Shipping times?</h3>
+            <p style="margin-top:10px;">Hover or click to see answer.</p>
+          </div>
+          <div class="faq-flip-back">
+            <h3 style="margin-bottom:10px;">Shipping</h3>
+            <img src="https://via.placeholder.com/100" alt="Shipping" style="width:80px; margin-bottom:10px;">
+            <p>Within 5-10 days locally, 10-20 internationally.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Card 3 -->
+      <div class="faq-flip-card">
+        <div class="faq-flip-inner">
+          <div class="faq-flip-front">
+            <h3 style="margin-bottom:10px;">Return policy?</h3>
+            <p style="margin-top:10px;">Hover or click to see answer.</p>
+          </div>
+          <div class="faq-flip-back">
+            <h3 style="margin-bottom:10px;">Returns</h3>
+            <img src="https://via.placeholder.com/100" alt="Return" style="width:80px; margin-bottom:10px;">
+            <p>Returns accepted within 14 days in original condition.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Card 4 -->
+      <div class="faq-flip-card">
+        <div class="faq-flip-inner">
+          <div class="faq-flip-front">
+            <h3 style="margin-bottom:10px;">Customizable products?</h3>
+            <p style="margin-top:10px;">Hover or click to see answer.</p>
+          </div>
+          <div class="faq-flip-back">
+            <h3 style="margin-bottom:10px;">Customization</h3>
+            <img src="https://via.placeholder.com/100" alt="Custom" style="width:80px; margin-bottom:10px;">
+            <p>Some products are customizable on request.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Card 5 -->
+      <div class="faq-flip-card">
+        <div class="faq-flip-inner">
+          <div class="faq-flip-front">
+            <h3 style="margin-bottom:10px;">International shipping?</h3>
+            <p style="margin-top:10px;">Hover or click to see answer.</p>
+          </div>
+          <div class="faq-flip-back">
+            <h3 style="margin-bottom:10px;">Worldwide</h3>
+            <img src="https://via.placeholder.com/100" alt="Global" style="width:80px; margin-bottom:10px;">
+            <p>Yes, we ship globally with varying costs.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Card 6 -->
+      <div class="faq-flip-card">
+        <div class="faq-flip-inner">
+          <div class="faq-flip-front">
+            <h3 style="margin-bottom:10px;">Care instructions?</h3>
+            <p style="margin-top:10px;">Hover or click to see answer.</p>
+          </div>
+          <div class="faq-flip-back">
+            <h3 style="margin-bottom:10px;">Care</h3>
+            <img src="https://via.placeholder.com/100" alt="Care" style="width:80px; margin-bottom:10px;">
+            <p>Keep away from water and extreme heat.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Card 7 -->
+      <div class="faq-flip-card">
+        <div class="faq-flip-inner">
+          <div class="faq-flip-front">
+            <h3 style="margin-bottom:10px;">Are your products eco-friendly?</h3>
+            <p style="margin-top:10px;">Hover or click to see answer.</p>
+          </div>
+          <div class="faq-flip-back">
+            <h3 style="margin-bottom:10px;">Eco-friendly</h3>
+            <img src="https://via.placeholder.com/100" alt="Eco" style="width:80px; margin-bottom:10px;">
+            <p>Yes, most materials are sustainably sourced.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Card 8 -->
+      <div class="faq-flip-card">
+        <div class="faq-flip-inner">
+          <div class="faq-flip-front">
+            <h3 style="margin-bottom:10px;">Order tracking?</h3>
+            <p style="margin-top:10px;">Hover or click to see answer.</p>
+          </div>
+          <div class="faq-flip-back">
+            <h3 style="margin-bottom:10px;">Tracking</h3>
+            <img src="https://via.placeholder.com/100" alt="Tracking" style="width:80px; margin-bottom:10px;">
+            <p>Tracking info provided after shipment.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Card 9 -->
+      <div class="faq-flip-card">
+        <div class="faq-flip-inner">
+          <div class="faq-flip-front">
+            <h3 style="margin-bottom:10px;">Customer support?</h3>
+            <p style="margin-top:10px;">Hover or click to see answer.</p>
+          </div>
+          <div class="faq-flip-back">
+            <h3 style="margin-bottom:10px;">Support</h3>
+            <img src="https://via.placeholder.com/100" alt="Support" style="width:80px; margin-bottom:10px;">
+            <p>Contact us anytime via email or chat.</p>
+          </div>
+        </div>
+      </div>
+	  <!-- Card 9 -->
+      <div class="faq-flip-card">
+        <div class="faq-flip-inner">
+          <div class="faq-flip-front">
+            <h3 style="margin-bottom:10px;">Cause & Charities?</h3>
+            <p style="margin-top:10px;">Hover or click to see answer.</p>
+          </div>
+          <div class="faq-flip-back">
+            <h3 style="margin-bottom:10px;">Cause & Charities</h3>
+            <img src="https://via.placeholder.com/100" alt="Support" style="width:80px; margin-bottom:10px;">
+            <p>Contact us anytime via email or chat.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer style="margin-top:50px; padding:20px; background:#111; text-align:center; border-top:2px solid var(--neon-blue); transition: all 0.3s ease;">
+    <p>&copy; 2026 Trinkkl.ph | All rights reserved.</p>
+    <div style="margin-top:10px;">
+      <a href="#" style="color:#fff; margin:0 10px;">Instagram</a>
+      <a href="#" style="color:#fff; margin:0 10px;">Twitter</a>
+      <a href="#" style="color:#fff; margin:0 10px;">Facebook</a>
+    </div>
+  </footer>
+</section>
+
+<!-- Script to flip all cards -->
+<script>
+  const flipButtons = document.getElementById('flipAllBtn');
+  flipButtons.onclick = () => {
+    document.querySelectorAll('.faq-flip-card').forEach(card => {
+      card.classList.toggle('flipped');
+    });
+  };
+
+  // Add click toggle for individual cards
+  document.querySelectorAll('.faq-flip-card').forEach(card => {
+    card.onclick = () => {
+      card.classList.toggle('flipped');
+    };
+  });
+</script>
+
+<!-- Your existing script -->
+<script src="Script_1.js"></script>
+</body>
+</html>
