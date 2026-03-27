@@ -1,17 +1,73 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Cyberpunk Filipino-Made Accessories</title>
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="Style_1.css" />
-</head>
-<body>
-<div class="layout-container">
-  <nav id="sidebar">
-  </nav>
-</div>
+# Trinkkl.ph - Cyberpunk Filipino-Made Accessories
+
+Welcome to **Trinkkl.ph**, your premier online destination for futuristic and cyberpunk-inspired accessories crafted by talented Filipino artisans. Our mission is to blend cutting-edge technology with artistic craftsmanship to create unique, high-quality wearable art that stands out.
+
+---
+
+## Features
+
+- **Futuristic & Cyberpunk Design:** Unique accessories inspired by future aesthetics.
+- **User-Friendly Interface:** Easy navigation with a sleek, neon-themed design.
+- **Product Showcase:** Highlighting exclusive collections and featured items.
+- **Customer Reviews:** Showcasing feedback from satisfied customers.
+- **Dynamic Cart System:** Add, view, and manage your shopping cart.
+- **Responsive Layout:** Looks great on desktops and mobile devices.
+- **About Us & Community Focus:** Sharing our story, values, and commitment to sustainability.
+
+---
+
+## Technologies Used
+
+- **HTML5 & CSS3:** Structure and styling of the website.
+- **JavaScript:** Interactive features like shopping cart management.
+- **Google Fonts:** Futuristic fonts to enhance aesthetics.
+- **CSS Variables:** Customizable theme colors.
+- **Responsive Design:** Ensuring accessibility on all devices.
+
+---
+
+## Features in Development
+
+- **User Registration & Login:** Sign-up system for customers.
+- **Checkout & Payment Integration:** Seamless purchasing process.
+- **Backend Integration:** For order management and inventory tracking.
+- **Enhanced User Reviews & Testimonials**
+
+---
+
+## How to Use
+
+1. Browse the products and add your favorite items to the cart.
+2. View your cart in the sidebar or the dedicated cart section.
+3. Proceed to checkout and confirm your order.
+4. Learn more about our story and values in the About Us section.
+5. Stay connected through our social media links.
+
+---
+
+## Customization
+
+- To modify the website's styles, edit `Style_1.css`.
+- To update the cart functionality, customize `Script_1.js`.
+- Add new products, reviews, or sections directly in the HTML.
+
+---
+
+## Contributing
+
+Feel free to fork the repository and contribute improvements or new features. Please submit pull requests and ensure code quality.
+
+---
+
+## Contact
+
+For inquiries or support, reach out through our social media or email.
+
+---
+
+## License
+
+This project is a personal or community showcase site; customize licensing as needed.
 <div id="overlay"></div>
 <main>
   <header>
